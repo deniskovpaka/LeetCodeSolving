@@ -17,7 +17,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,2,3,1};
+        int[] nums = {1, 2, 3, 4, 5, 7, 2};
         int peakElement = new Solution().findPeakElement(nums);
         System.out.println("Pos = " + peakElement);
     }
