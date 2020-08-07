@@ -18,6 +18,7 @@
     - August
         - 3.08 - 242
         - 5.08 - 520
+        - 7.08 - 617
 
 2. Done with help:
     - June
