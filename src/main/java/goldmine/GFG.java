@@ -39,19 +39,19 @@ public class GFG {
 //                {0, 6, 4}
 //        };
 
-//        int[][] gold = {
-//                {10, 33, 13, 15},
-//                {22, 21, 4, 1},
-//                {5, 0, 2, 3},
-//                {0, 6, 14, 2}
-//        };
-
-        int [][] gold = {
-                {1, 3, 1, 5},
-                {2, 2, 4, 1},
+        int[][] gold = { // 83
+                {10, 33, 13, 15},
+                {22, 21, 4, 1},
                 {5, 0, 2, 3},
-                {0, 6, 1, 2}
+                {0, 6, 14, 2}
         };
+
+//        int [][] gold = { // 16
+//                {1, 3, 1, 5},
+//                {2, 2, 4, 1},
+//                {5, 0, 2, 3},
+//                {0, 6, 1, 2}
+//        };
         int maxAmountOfGold = new GFG().getMaxGold(gold, gold.length, gold[0].length);
         System.out.println("Res = " + maxAmountOfGold);
     }
