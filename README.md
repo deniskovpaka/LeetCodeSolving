@@ -46,6 +46,7 @@
         - 24.09 - 66
     - October
         - 3.10 - 198, 53
+        - 7.10 - 27
 
 2. Done with help:
     - June
