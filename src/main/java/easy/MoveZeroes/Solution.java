@@ -12,19 +12,6 @@ public class Solution {
             zeroPointer = findZeroPointer(nums, zeroPointer);
             valPointer = findValuePointer(nums, zeroPointer);
         }
-
-//        for (int i = 0, j = 0; i < nums.length; ++i) {
-//            if (nums[i] != 0 && i >= j) {
-//                for (; j < nums.length; ++j) {
-//                    if (nums[j] == 0) {
-//                        nums[j] = nums[i];
-//                        nums[i] = 0;
-//                        i = j;
-//                        break;
-//                    }
-//                }
-//            }
-//        }
         for (int i : nums) {
             System.out.println(i);
         }
