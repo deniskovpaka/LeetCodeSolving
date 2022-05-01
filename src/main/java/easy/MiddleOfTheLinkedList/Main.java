@@ -1,0 +1,12 @@
+package easy.MiddleOfTheLinkedList;
+
+import medium.AddTwoNumbers.ListNode;
+
+public class Main {
+    public static void main(String[] args) {
+        ListNode head = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
+        Solution solution = new Solution();
+        ListNode middleNode = solution.middleNode(head);
+        System.out.println(middleNode.val);
+    }
+}
