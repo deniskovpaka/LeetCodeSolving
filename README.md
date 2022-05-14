@@ -1,4 +1,4 @@
-# LeetCodeSolving
+# 2LeetCodeSolving
 1. Solved:
     - June
         - 14.06 - 1
@@ -66,6 +66,7 @@
         - 9.05 - 93
         - 10.05 - 392
         - 12.05 - 109, 99
+        - 14.05 - 2236
 2. Done with help:
     - April
         - 26.04 - 338
